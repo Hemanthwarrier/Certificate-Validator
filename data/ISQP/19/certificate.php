@@ -1,3 +1,16 @@
+<?php
+ $val = $json->$userID;
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<style>
 
 
 * {
@@ -95,7 +108,7 @@ html {
   min-height: 100vh;
   font-family: sans-serif;
   line-height: 1.5;
-  background: #474266;
+  background: #0C6399;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -151,3 +164,20 @@ body {
     min-width: var(--main-column-width);
   }
 }
+
+</style>
+<div class="app">
+  <nav>
+    <a href="#" aria-current="page"><img src="https://ceconline.ga/wp-content/uploads/2018/11/cec_logo_300.png" alt="" width="58px"></a>
+    <a href="#"><img src="https://ieeecs-media.computer.org/wp-media/2018/04/02183615/IEEE-CS_LogoTM-orange-300x103.png" alt="" width="100px"></a>
+  </nav>
+  <main>
+    <h1 style="text-align:center;">Certificate of Appreciation</h1>
+    <p style="text-align:center;">This certificate is to recognize</p>
+    <h1 style="text-align:center;"><?php echo $val[0] ?></h1>
+    <p style="text-align:center;">for securing <b><?php echo $val[1] ?></b> during Hack19,
+organised by IEEE Computer Society Student Branch Chapter College of Engineering Chengannur</p>
+  </main>
+</div>
+</body>
+</html>
