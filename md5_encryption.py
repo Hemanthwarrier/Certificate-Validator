@@ -1,11 +1,10 @@
 import hashlib 
   
 # initializing string 
-str = [
-'third Vishnu Prakash',
-'third Abraham Francis',
-'third Adwaith T',
-'third Srinivas R'
+str = ["Govind Kartha",
+"Akarsh Ashok",
+"Deepa Mariam George",
+"Rojin K Sunny"
 ]
   
 for name in str:

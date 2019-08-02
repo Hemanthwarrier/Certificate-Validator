@@ -1,5 +1,537 @@
-{
-    "EB5C":["Team 1","First Prize"],
-    "C77I":["Team 2","Second Prize"],
-    "64IA":["Team 3","Third Prize"]
-}
+[
+    {
+      "ID": "SWOR",
+      "NAME": "ADHIL SHAHANAD K K",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "7PSN",
+      "NAME": "Adharsh S",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "WLX4",
+      "NAME": "Sreejith Murali",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "GB7U",
+      "NAME": "Reenu Rachel Thomas",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "0T05",
+      "NAME": "Vishwanath R Athrey",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "64I2",
+      "NAME": "Parvathy Nair B.I",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "DGSJ",
+      "NAME": "Sneha Esther cherian E",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "JZV9",
+      "NAME": "Dennis thomas",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "IMSP",
+      "NAME": "Surabhi B",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "FQ4K",
+      "NAME": "Sreelakshmi.L",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "QVMF",
+      "NAME": "Abhishek S",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "1AQI",
+      "NAME": "Nevin Koshy Daniel",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "21N0",
+      "NAME": "ARJUN TS",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "Z664",
+      "NAME": "Habeeb Rehman K P",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "A08V",
+      "NAME": "VARSHA P S",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "FAUL",
+      "NAME": "Akshaya   G",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "6F9W",
+      "NAME": "Vinay Mathew Varghese",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "14QK",
+      "NAME": "Ananthapathmanabhan R",
+      "Workshop": "Angular"
+    },
+    {
+      "ID": "9BF0",
+      "NAME": "Joel John Kandathil",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "XGVZ",
+      "NAME": "AMITHABH S",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "MYZR",
+      "NAME": "Bivin Varkey Varghese",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "N1E5",
+      "NAME": "Sreelakshmi N S",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "NT46",
+      "NAME": "Jyothi Prasad",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "EYU2",
+      "NAME": "Hari Krishnan U",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "ZAX3",
+      "NAME": "Dhanaraj S",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "Y6DA",
+      "NAME": "Elna Cyriac",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "0SJF",
+      "NAME": "NAVAMI RAJ",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "PZC7",
+      "NAME": "Arun R",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "AOX2",
+      "NAME": "Alen Cherian Alexander",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "VTXE",
+      "NAME": "Preethi Mickle",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "8Z8Y",
+      "NAME": "Yarbash Saleem M P",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "JIZL",
+      "NAME": "Gauthem Krishna",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "A9FX",
+      "NAME": "Krishna Prasad Shyam Nambiar",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "239V",
+      "NAME": "Vishnu K O",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "S6YJ",
+      "NAME": "Anjaly krishnan",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "11T7",
+      "NAME": "shan shaji",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "I3DT",
+      "NAME": "Ashika Hussain",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "4JWJ",
+      "NAME": "Sruthi Vijayan",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "BMAF",
+      "NAME": "Romal Austine",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "COFF",
+      "NAME": "Remya C",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "USYI",
+      "NAME": "Anjitha C Thomas",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "BT1T",
+      "NAME": "N S ATHUL ANAND",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "HF69",
+      "NAME": "Martin Joe C",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "0J25",
+      "NAME": "Justin Abraham Manoj",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "AAIZ",
+      "NAME": "Gokul Manohar",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "279M",
+      "NAME": "Avinek P K",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "GPXO",
+      "NAME": "Parvathi P Nair",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "GPTB",
+      "NAME": "Arun Jose",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "WIDZ",
+      "NAME": "Jibin Joseph",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "E9W2",
+      "NAME": "Adwaith T A",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "QD0B",
+      "NAME": "Jeril Monzi Jacob",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "P4Z6",
+      "NAME": "Shibiliya Ismail",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "WX82",
+      "NAME": "Parvathy D",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "9TIM",
+      "NAME": "Srinivas R Pai",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "ZBNL",
+      "NAME": "Kiran",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "YNAC",
+      "NAME": "Devika J",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "ONSZ",
+      "NAME": "Christina antony",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "9CJN",
+      "NAME": "Deepak R",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "LRTU",
+      "NAME": "Adersh A",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "17WD",
+      "NAME": "Vishnu Prakash",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "O46H",
+      "NAME": "Angel Mary Alex",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "0ZRD",
+      "NAME": "Seethal Idiculla",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "EDYT",
+      "NAME": "Neenu Chacko",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "6IT4",
+      "NAME": "Feny Roy",
+      "Workshop": "Android"
+    },
+    {
+      "ID": "CCTB",
+      "NAME": "Parvathi J Nair",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "QYF1",
+      "NAME": "Keziya Mariyam Thomas",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "K0QG",
+      "NAME": "Tessy Thomas",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "E0UR",
+      "NAME": "Abin Binu Sam",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "DGXR",
+      "NAME": "Muhammed Navas",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "33MO",
+      "NAME": "Jeny Susan Rajan",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "NXPD",
+      "NAME": "Abraham Francis",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "Y7QL",
+      "NAME": "Anagha Chand R",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "Y9SM",
+      "NAME": "RINU ELISABATH MATHEW",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "GYWQ",
+      "NAME": "Nivya Maria Mathew",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "YCAU",
+      "NAME": "Alka Anna Sabu",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "BWQ4",
+      "NAME": "Vivek S",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "31G8",
+      "NAME": "Aleena Joseph",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "INLD",
+      "NAME": "Mohammed Rabeeh",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "2DU2",
+      "NAME": "Ruben abraham shibu",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "MS20",
+      "NAME": "Shyam Krishnan R",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "EZQZ",
+      "NAME": "Jacob Abraham",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "U0OZ",
+      "NAME": "Joel Saji Chacko",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "AI4W",
+      "NAME": "Devika Sivakumar",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "UJQR",
+      "NAME": "Deepa Mariam George",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "KBK0",
+      "NAME": "Sona Sebastian",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "E0O4",
+      "NAME": "Alan Easow",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "FEGN",
+      "NAME": "Habel james george",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "E0N7",
+      "NAME": "Athena Anna Sabu",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "TG74",
+      "NAME": "S Muhammed Fayaz",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "ZS6Y",
+      "NAME": "Abhijith Pradeep",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "PLP0",
+      "NAME": "Ashik David Abraham",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "WG4L",
+      "NAME": "Gopika Suresh",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "VEE6",
+      "NAME": "Jesswin W Varghese",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "BYZ4",
+      "NAME": "Akhil Ravindran",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "UHOH",
+      "NAME": "Jalena Mathew",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "2VOC",
+      "NAME": "Thejus R",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "JQH6",
+      "NAME": "Govind Kartha",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "I6I8",
+      "NAME": "Rojin K Sunny",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "SSP 1.00",
+      "NAME": "R ARAVIND",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "MS5Q",
+      "NAME": "SHILPA SAJAN PUNNOOSE",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "SACU",
+      "NAME": "Azhar K",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "7B51",
+      "NAME": "Ivan Saji Araham",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "AS7Z",
+      "NAME": "Jeenu",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "9KXB",
+      "NAME": "George Mani",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "4T7J",
+      "NAME": "",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "7KRR",
+      "NAME": "Alan P Aby",
+      "Workshop": "Django"
+    },
+    {
+      "ID": "E8CZ",
+      "NAME": "Akarsh Ashok",
+      "Workshop": "Django"
+    }
+  ]
