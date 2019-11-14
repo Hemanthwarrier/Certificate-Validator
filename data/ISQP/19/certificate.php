@@ -13,172 +13,132 @@
 </head>
 <body>
 <style>
-
-
-* {
-  box-sizing: border-box;
-  &::before,
-  &::after {
-    border-box: inherit;
-  }
-}
-
-.app {
-  position: relative;
-  /* padding-left: .5em; */
-  max-width: 60em;
-  padding-top: 100px;
-  /* background: hsl(220, 35%, 76%) 100% linear-gradient(hsl(252, 2%, 42%) 0%, hsl(0, 5%, 30%) 50%, hsl(220, 35%, 76%) 50%, hsl(220, 35%, 76%) 100%); */
-  background-size: auto 10em ;
-  background-repeat: repeat-x;
-  background-position: center top;
-}
-
-
-nav {
-  display: flex;
-  padding: 1.5em var(--var-padding);
-  grid-row: 1;
-  background: #fff;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-
-  a {
-    display: block;
-    color: #333;
-    text-decoration: none;
-    border-bottom: 1px solid #333;
-  }
-
-  a + a {
-    margin-left: 2em;
-  }
-
-
-  a[aria-current] {
-    border-bottom: 2px solid var(--highlight);
-  }
-}
-
-main {
-  padding: var(--var-padding);
-  grid-row: 2;
-  grid-column: 1;
-  background: #fff;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-
-  h1 {
-    margin-top: 0;
-    text-align: center;
-    font-weight: normal;
-
-    span {
-      display: block;
-      color: var(--highlight);
-      font-weight: bolder;
-    }
-
-    sub {
-      font-size: .5em;
-    }
-  }
-
-  a {
-    color: var(--highlight);
-    text-decoration: none;
-
-    &::after {
-      margin-left: 1.5em;
-      content: '→';
-      vertical-align: baseline;
-    }
-
-    &:hover,
-    &:focus {
-      color: var(--highlight-dark);
-    }
-
-    &:hover::after,
-    &:focus::after {
-      margin-left: 2em;
-    }
-  }
-}
-
-html {
-  min-height: 100vh;
-  font-family: sans-serif;
-  line-height: 1.5;
-  background: #0C6399;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 body {
-  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#1F2739;
 }
 
-@media (min-width: 37.5em) {
-  :root {
-    --var-padding: 3em;
-  }
+h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #4DC3FA;
+}
 
-  body {
-    margin: 1em;
-  }
+h2 {
+  font-size:1em; 
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 2em;
+  color: #FB667A;
+}
 
-  .app {
-    display: grid;
-    margin: 3em auto;
-    grid-template-rows: 5em auto;
-    /* grid-template-columns: 1.4fr 1fr; */
-    /* padding-left: 2em; */
-    background-size: auto;
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FB667A;
+  text-decoration: none;
+}
 
-    &::after {
-      position: absolute;
-      right: 1em;
-      left: 1em;
-      bottom: 0;
-      z-index: -1;
-      width: 95%;
-      height: 200px;
-      content: '';
-      box-shadow: 0 0 5em hsl(22, 23%, 40%);
-    }
-  }
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
 
-  header {
-    height: auto;
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
 
-    a {
-      right: var(--logo-offset);
-      left: auto;
-    }
-  }
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
 
-  nav {
-    justify-content: space-between;
-  }
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
 
-  main {
-    min-width: var(--main-column-width);
-  }
+.container td, .container th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+  padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+.container th {
+	  background-color: #1F2739;
+}
+
+.container td:first-child { color: #FB667A; }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
 }
 
 </style>
 <div class="app">
-  <nav>
-    <a href="#" aria-current="page"><img src="https://ceconline.ga/wp-content/uploads/2018/11/cec_logo_300.png" alt="" width="58px"></a>
-    <a href="#"><img src="https://ieeecs-media.computer.org/wp-media/2018/04/02183615/IEEE-CS_LogoTM-orange-300x103.png" alt="" width="100px"></a>
-  </nav>
   <main>
-    <h1 style="text-align:center;">Certificate of Appreciation</h1>
-    <p style="text-align:center;">This certificate is to recognize</p>
-    <h1 style="text-align:center;"><?php echo $val[0] ?></h1>
-    <p style="text-align:center;">for securing <b><?php echo $val[1] ?></b> during Hack19,
-organised by IEEE Computer Society Student Branch Chapter College of Engineering Chengannur</p>
+    <h1><span class="blue"></span>Certificate<span class="blue"></span> <span class="yellow">Validator</pan></h1>
+<table class="container">
+	<tbody>
+		<tr>
+			<td>Name</td>
+			<td><?php echo $val[0] ?></td>
+		</tr>
+		<tr>
+			<td>Issued By</td>
+			<td>IEEE Students Branch College of Engineering Chengannur</td>
+		</tr>
+		<tr>
+			<td>Role</td>
+			
+			<td><?php echo $val[1] ?></td>
+		</tr>
+    <tr>
+			<td>Event</td>
+			
+			<td><?php echo $val[2] ?></td>
+		</tr>
+	</tbody>
+</table>
+<h2>Created with love by <a href="" target="_blank">DEVCOM</a></h2>
   </main>
 </div>
 </body>
