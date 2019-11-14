@@ -24,9 +24,9 @@ if(file_exists($certificate_file) && file_exists($json_file)){
       if(isset($json->$userID))
             include $certificate_file;
       else
-            include 'form.html';
+            include '404.html';
             
 }else
-      include 'form.html';
+      include '404.html';
 
 ?>
